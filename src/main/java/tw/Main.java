@@ -30,8 +30,8 @@ public class Main {
             }else {
                 result = strCheckInput;
             }
-            output =output + "\r\n" + input + " " +result;
-            System.out.println(output);
+            output =output + input + " " +result + "\r\n";
+            System.out.println(output.substring(0,output.length()-2));
         }
     }
 }
